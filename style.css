@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-container{
+    display: flex;
+    border: 2px solid grey ;
+}
+
+.form-img{
+    height: 400px;
+}
+
+.login-container{
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.login-container h1 {
+    color: white;
+}
+
+.login-text{
+    color: white;
+}
+
+.forgotPass-text{
+    color: white;
+}
+
+
+.portal-header{
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+}
