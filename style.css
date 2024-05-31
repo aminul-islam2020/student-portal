@@ -14,7 +14,10 @@
 
 .form-container{
     display: flex;
-    border: 2px solid grey ;
+    border: 2px solid #28A745 ;
+    box-shadow: 0 14px 28px rgba(40,167,69,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+            border-radius: 5px;
 }
 
 .form-img{
@@ -79,4 +82,26 @@
 .signUp-btn:hover{
     background-color: #28A745;
     color: white;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: #E8F0FE;
+    padding: 12px 15px;
+	margin: 8px 0;
+	width: 75%;
+}
+
+.portal-heading{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.green-text{
+    color: #06A10B;
+}
+
+.gub-title{
+    color: #3AB5CB;
 }
