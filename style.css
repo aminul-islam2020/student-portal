@@ -20,8 +20,15 @@
             border-radius: 5px;
 }
 
+.img-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+
 .form-img{
-    height: 400px;
+    max-width: 50%; 
+  height: auto; 
 }
 
 .login-container{
@@ -76,6 +83,7 @@
 	letter-spacing: 1px;
 	text-transform: uppercase;
     transition: ease-in 0.3s;
+    margin-bottom: 20px;
 
 }
 
@@ -103,5 +111,12 @@ input{
 }
 
 .gub-title{
+    color: #3AB5CB;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #3AB5CB;
 }
